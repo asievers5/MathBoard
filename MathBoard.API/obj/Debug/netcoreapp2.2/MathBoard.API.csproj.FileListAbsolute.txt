@@ -1,0 +1,14 @@
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\bin\Debug\netcoreapp2.2\MathBoard.API.deps.json
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\bin\Debug\netcoreapp2.2\MathBoard.API.runtimeconfig.json
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\bin\Debug\netcoreapp2.2\MathBoard.API.runtimeconfig.dev.json
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\bin\Debug\netcoreapp2.2\MathBoard.API.dll
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\bin\Debug\netcoreapp2.2\MathBoard.API.pdb
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\obj\Debug\netcoreapp2.2\MathBoard.API.csprojAssemblyReference.cache
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\obj\Debug\netcoreapp2.2\MathBoard.API.csproj.CoreCompileInputs.cache
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\obj\Debug\netcoreapp2.2\MathBoard.API.RazorAssemblyInfo.cache
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\obj\Debug\netcoreapp2.2\MathBoard.API.RazorAssemblyInfo.cs
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\obj\Debug\netcoreapp2.2\MathBoard.API.AssemblyInfoInputs.cache
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\obj\Debug\netcoreapp2.2\MathBoard.API.AssemblyInfo.cs
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\obj\Debug\netcoreapp2.2\MathBoard.API.RazorTargetAssemblyInfo.cache
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\obj\Debug\netcoreapp2.2\MathBoard.API.dll
+C:\Users\ats59\source\repos\MathBoard\MathBoard.API\obj\Debug\netcoreapp2.2\MathBoard.API.pdb
