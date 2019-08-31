@@ -5,6 +5,7 @@ import MessageList from './components/MessageList'
 import SendMessageForm from './components/SendMessageForm'
 
 class AppChat extends React.Component {
+
     render() {
         return (
             <Container>
@@ -17,6 +18,7 @@ class AppChat extends React.Component {
             </Container>
         )
     }
+
 }
 
 export default AppChat
