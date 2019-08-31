@@ -12,8 +12,12 @@ class AppChat extends React.Component {
     constructor() {
         super()
         this.state = {
-            currentUser: null
+            roomId: ''
         }
+
+        this.currentUser = null
+        this.hasDefaultRoom = this.hasDefaultRoom.bind(this)
+        this.createDefaultRoom = this.createDefaultRoom.bind(this)
     }
 
     componentDidMount() {
@@ -29,12 +33,44 @@ class AppChat extends React.Component {
             .then(currentUser => {
                 console.log(`${currentUser.name} successfully connected to Chatkit.`)
 
-                this.setState({
-                    currentUser
-                })
+                this.currentUser = currentUser
+                if (!this.hasDefaultRoom()) {
+                    this.createDefaultRoom()
+                }
             })
             .catch(err => {
                 console.log(`Error connecting to chatkit: ${err}`)
+            })
+    }
+
+    hasDefaultRoom() {
+        let roomList = this.currentUser.rooms
+
+        for (let i = 0; i < roomList.length; i++) {
+            let room = roomList[i]
+
+            if (room.id === '#Default') {
+                console.log(`${this.currentUser.name} is already a member of #Default`)
+                return true
+            }
+        }
+
+        return false
+    }
+
+    createDefaultRoom() {
+        this.currentUser.createRoom({
+            id: '#Default',
+            name: 'Default Room',
+            private: true,
+            addUserIds: ['Admin']
+        })
+            .then(room => {
+                console.log('Successfully created #Default')
+                this.setState({ roomId: room.id })
+            })
+            .catch(err => {
+                console.log(`Error creating room #Default: ${err}`)
             })
     }
 
