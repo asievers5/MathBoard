@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MathBoard.Web",
+    "\\MathBoard.Web\\ClientApp",
+    "\\MathBoard.Web\\ClientApp\\src",
+    "\\MathBoard.Web\\ClientApp\\src\\chat"
   ],
   "SelectedNode": "\\MathBoard.sln",
   "PreviewInSolutionExplorer": false
