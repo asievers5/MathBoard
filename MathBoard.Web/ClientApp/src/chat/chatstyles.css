@@ -1,0 +1,15 @@
+﻿.app {
+    height: 100vh;
+}
+
+.white-board {
+    height: 60%;
+}
+
+.message-list {
+    height: 30%;
+}
+
+.send-message {
+    height: 10%;
+}

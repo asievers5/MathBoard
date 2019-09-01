@@ -1,10 +1,13 @@
 ﻿import React from 'react'
+import { Row } from 'reactstrap'
 
 class SendMessageForm extends React.Component {
 
     render() {
         return (
-            <div>SendMessageForm Component</div>
+            <Row className="send-message">
+                SendMessageForm Component
+            </Row>
         )
     }
 
