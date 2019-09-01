@@ -1,12 +1,11 @@
 ﻿import React from 'react'
-import { Row } from 'reactstrap'
 
 function WhiteBoard() {
 
     return (
-        <Row className="white-board">
+        <div>
             White Board Component
-        </Row>
+        </div>
     )
 
 }

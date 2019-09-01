@@ -1,13 +1,12 @@
 ﻿import React from 'react'
-import { Row } from 'reactstrap'
 
 class MessageList extends React.Component {
 
     render() {
         return (
-            <Row className="message-list">
+            <div>
                 MessageList Component
-            </Row>
+            </div>
         )
     }
 
