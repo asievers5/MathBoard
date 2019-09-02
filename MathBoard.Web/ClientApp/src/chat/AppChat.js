@@ -1,4 +1,5 @@
 ﻿import React from 'react'
+import {Row, Col} from 'reactstrap'
 
 import SendMessageForm from './components/SendMessageForm'
 import MessageList from './components/MessageList'
@@ -34,9 +35,11 @@ class AppChat extends React.Component {
         }
 
         return (
-            <div>
-                <Login login={this.handleLogin}/>
-            </div>
+            <Row>
+                <Col sm="12" md={{ size: 6, offset: 3 }}>
+                    <Login login={this.handleLogin} />
+                </Col>
+            </Row>
         )
     }
 
