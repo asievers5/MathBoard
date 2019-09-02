@@ -30,23 +30,21 @@ class Login extends React.Component {
 
     render() {
         return (
-            <div>
-                <Card>
-                    <CardHeader>Please Login</CardHeader>
-                    <CardBody>
-                        <Form onSubmit={this.handleSubmit}>
-                            <FormGroup>
-                                <Input
-                                    onChange={this.handleChange}
-                                    value={this.state.userName}
-                                    placeholder="Enter username"
-                                    type="text" />
-                            </FormGroup>
-                            <Button>Submit</Button>
-                        </Form>
-                    </CardBody>
-                </Card>
-            </div>
+            <Card>
+                <CardHeader>Please Login</CardHeader>
+                <CardBody>
+                    <Form onSubmit={this.handleSubmit}>
+                        <FormGroup>
+                            <Input
+                                onChange={this.handleChange}
+                                value={this.state.userName}
+                                placeholder="Enter username"
+                                type="text" />
+                        </FormGroup>
+                        <Button>Submit</Button>
+                    </Form>
+                </CardBody>
+            </Card>
         )
     }
 
